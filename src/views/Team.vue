@@ -8,7 +8,8 @@
         <v-flex xs12 sm6 md4 lg3 v-for="person in team" :key="person.name">
           <v-card flat class="text-xs-center ma-3">
             <v-responsive class="pr-4">
-              <v-avatar>
+              <!-- grey class adds a border around the avatar -->
+              <v-avatar size="100" class="grey light-2">
                 <img :src="person.avatar">
               </v-avatar>
             </v-responsive>
