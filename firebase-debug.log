@@ -1,0 +1,35 @@
+[debug] [2019-11-19T22:33:19.116Z] ----------------------------------------------------------------------
+[debug] [2019-11-19T22:33:19.119Z] Command:       /usr/local/bin/node /Users/jamo/.npm-global/bin/firebase init
+[debug] [2019-11-19T22:33:19.119Z] CLI Version:   7.8.0
+[debug] [2019-11-19T22:33:19.119Z] Platform:      darwin
+[debug] [2019-11-19T22:33:19.119Z] Node Version:  v12.7.0
+[debug] [2019-11-19T22:33:19.121Z] Time:          Tue Nov 19 2019 17:33:19 GMT-0500 (Eastern Standard Time)
+[debug] [2019-11-19T22:33:19.121Z] ----------------------------------------------------------------------
+[debug] [2019-11-19T22:33:19.121Z] 
+[debug] [2019-11-19T22:33:19.135Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-19T22:33:19.137Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/jamo/Documents/Workspace/vuetify-playlist/todo-ninja
+
+[debug] [2019-11-19T22:33:54.093Z] Error: write EIO
+    at afterWriteDispatched (internal/stream_base_commons.js:146:25)
+    at writeGeneric (internal/stream_base_commons.js:137:3)
+    at WriteStream.Socket._writeGeneric (net.js:698:11)
+    at WriteStream.Socket._write (net.js:710:8)
+    at doWrite (_stream_writable.js:417:12)
+    at writeOrBuffer (_stream_writable.js:401:5)
+    at WriteStream.Writable.write (_stream_writable.js:301:11)
+    at EventEmitter.signalExit.alwaysLast (/Users/jamo/.npm-global/lib/node_modules/firebase-tools/node_modules/restore-cursor/index.js:7:18)
+    at EventEmitter.emit (events.js:203:13)
+    at EventEmitter.emit (domain.js:471:20)
+    at emit (/Users/jamo/.npm-global/lib/node_modules/firebase-tools/node_modules/signal-exit/index.js:77:11)
+    at process.listener (/Users/jamo/.npm-global/lib/node_modules/firebase-tools/node_modules/signal-exit/index.js:93:7)
+    at process.emit (events.js:203:13)
